@@ -118,9 +118,10 @@ export default function GalleryPage() {
 
             {currentYearData.photos.length > 0 ? (
               <div
+                className="animate-fade-up"
                 style={{
                   display: "grid",
-                  gridTemplateColumns: "repeat(auto-fill, minmax(280px, 1fr))",
+                  gridTemplateColumns: "repeat(auto-fill, minmax(min(100%, 260px), 1fr))",
                   gap: "20px",
                 }}
               >

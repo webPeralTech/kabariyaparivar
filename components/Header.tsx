@@ -95,33 +95,18 @@ export function Header() {
           }}
           aria-label="Kabariya Parivar Home"
         >
-          <div
-            style={{
-              position: "relative",
-              width: "64px",
-              height: "64px",
-              flexShrink: 0,
-            }}
-          >
+          <div className="header-brand-logo">
             <Image
               src="/kabariya%20logo/1000544246.jpg"
               alt="Kabariya Parivar Logo"
               fill
-              sizes="64px"
+              sizes="(max-width: 600px) 46px, 60px"
               style={{ objectFit: "contain" }}
               priority
             />
           </div>
           <div>
-            <div
-              style={{
-                fontFamily: "var(--font-display)",
-                fontSize: "1.45rem",
-                fontWeight: 700,
-                color: "var(--maroon-d)",
-                lineHeight: 1.1,
-              }}
-            >
+            <div className="header-brand-title">
               {lang === "gu" ? SITE_CONFIG.nameGu : SITE_CONFIG.name}
             </div>
             <div
@@ -280,6 +265,7 @@ export function Header() {
             display: "flex",
             flexDirection: "column",
             gap: "12px",
+            animation: "slideDown 0.28s var(--ease) forwards",
           }}
           className="mobile-drawer"
         >

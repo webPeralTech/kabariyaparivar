@@ -26,9 +26,10 @@ export default function LocationPage() {
       <section style={{ paddingTop: 0 }}>
         <div className="container">
           <div
+            className="animate-fade-up"
             style={{
               display: "grid",
-              gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))",
+              gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 320px), 1fr))",
               gap: "24px",
               alignItems: "stretch",
             }}
@@ -167,9 +168,10 @@ export default function LocationPage() {
 
           {/* Contact Details & Direct Map Action */}
           <div
+            className="animate-fade-up"
             style={{
               display: "grid",
-              gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
+              gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 280px), 1fr))",
               gap: "24px",
               marginTop: "32px",
             }}

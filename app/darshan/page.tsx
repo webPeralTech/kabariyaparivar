@@ -36,6 +36,7 @@ export default function DarshanPage() {
               overflow: "hidden",
               boxShadow: "var(--shadow-lg)",
             }}
+            className="animate-fade-up"
           >
             {/* Header Ribbon */}
             <div
@@ -76,7 +77,7 @@ export default function DarshanPage() {
               style={{
                 position: "relative",
                 width: "100%",
-                height: "440px",
+                height: "clamp(260px, 45vw, 440px)",
                 backgroundColor: "#16070a",
               }}
             >

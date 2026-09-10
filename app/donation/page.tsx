@@ -26,9 +26,10 @@ export default function DonationPage() {
       <section style={{ paddingTop: 0 }}>
         <div className="container">
           <div
+            className="animate-fade-up"
             style={{
               display: "grid",
-              gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))",
+              gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 320px), 1fr))",
               gap: "32px",
               alignItems: "stretch",
             }}

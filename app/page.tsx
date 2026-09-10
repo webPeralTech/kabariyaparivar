@@ -27,16 +27,9 @@ export default function HomePage() {
         }}
       >
         <div className="container">
-          <div
-            style={{
-              display: "grid",
-              gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))",
-              alignItems: "center",
-              gap: "48px",
-            }}
-          >
+          <div className="hero-grid animate-fade-up">
             {/* Copy Column */}
-            <div>
+            <div className="animate-fade-up delay-1">
               <div className="eyebrow-mark">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
                   <path d="M12 2 4 8v13h16V8Z" />
@@ -59,7 +52,7 @@ export default function HomePage() {
                 {t("hero_lede")}
               </p>
 
-              <div style={{ display: "flex", flexWrap: "wrap", gap: "14px", marginBottom: "28px" }}>
+              <div className="hero-btn-group">
                 <Link href="/darshan" className="btn btn-primary">
                   <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18">
                     <path d="M8 5v14l11-7z" />
@@ -82,20 +75,8 @@ export default function HomePage() {
             </div>
 
             {/* Visual Column - Temple Showcase Photo */}
-            <div>
-              <div
-                style={{
-                  position: "relative",
-                  maxWidth: "500px",
-                  height: "440px",
-                  margin: "0 auto",
-                  borderRadius: "24px",
-                  overflow: "hidden",
-                  border: "2px solid var(--marigold)",
-                  boxShadow: "0 18px 45px rgba(122, 36, 54, 0.18), 0 4px 12px rgba(226, 166, 59, 0.2)",
-                  background: "#18060a",
-                }}
-              >
+            <div className="animate-scale-in delay-2">
+              <div className="hero-photo-wrap">
                 <Image
                   src="/DEV_0528.JPG"
                   alt="Shree Khodiyar Mataji Mandir Savarkundla"
@@ -203,17 +184,7 @@ export default function HomePage() {
         }}
       >
         <div className="container">
-          <div
-            style={{
-              maxWidth: "1080px",
-              margin: "0 auto",
-              borderRadius: "var(--radius-lg)",
-              overflow: "hidden",
-              border: "2px solid var(--marigold)",
-              boxShadow: "var(--shadow-md)",
-              backgroundColor: "var(--white)",
-            }}
-          >
+          <div className="sihasan-frame animate-fade-up">
             <Image
               src="/Mataji%20Sihasan%20Madh%20Horizontal.jpg"
               alt="Shree Mataji Sihasan Madh"
@@ -240,14 +211,7 @@ export default function HomePage() {
             description={t("welcome_text")}
           />
 
-          <div
-            style={{
-              display: "grid",
-              gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))",
-              gap: "20px",
-              marginTop: "32px",
-            }}
-          >
+          <div className="mosaic-grid animate-fade-up">
             {[
               {
                 labelEn: "Parivar Bhavan",
