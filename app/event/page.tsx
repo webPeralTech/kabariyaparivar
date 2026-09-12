@@ -80,7 +80,7 @@ export default function EventPage() {
 
             <div style={{ display: "flex", justifyContent: "center", flexWrap: "wrap", gap: "14px" }}>
               <a
-                href={SITE_CONFIG.socials.whatsapp}
+                href={SITE_CONFIG.socials.whatsappGroup || SITE_CONFIG.socials.whatsapp}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-dark"

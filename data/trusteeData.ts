@@ -33,31 +33,31 @@ export const BHUVA_SHREE: Person[] = [
 
 export const TRUSTEES: Person[] = [
   {
-    name: "Add trustee name",
-    nameGu: "ટ્રસ્ટી શ્રી",
-    role: "President",
-    roleGu: "પ્રમુખ શ્રી",
-    photo: ""
+    name: "Gabhrubhai Devrajbhai Kabariya",
+    nameGu: "ગભરૂભાઈ દેવરાજભાઈ કાબરીયા",
+    role: "Trustee",
+    roleGu: "ટ્રસ્ટી શ્રી",
+    photo: "/04%20Gabhrubhai%20Devrajbhai%20Kabariya.JPG"
   },
   {
-    name: "Add trustee name",
-    nameGu: "ટ્રસ્ટી શ્રી",
-    role: "Secretary",
-    roleGu: "મંત્રી શ્રી",
-    photo: ""
+    name: "Kishorbhai Himmatbhai Kabariya",
+    nameGu: "કિશોરભાઈ હિંમતભાઈ કાબરીયા",
+    role: "Trustee",
+    roleGu: "ટ્રસ્ટી શ્રી",
+    photo: "/trustee/kishorbhai%20himmatbhai%20kabariya.jpeg"
   },
   {
-    name: "Add trustee name",
-    nameGu: "ટ્રસ્ટી શ્રી",
-    role: "Treasurer",
-    roleGu: "ખજાનચી શ્રી",
-    photo: ""
+    name: "Manojbhai Bavchandbhai Kabariya",
+    nameGu: "મનોજભાઈ બાવચંદભાઈ કાબરીયા",
+    role: "Trustee",
+    roleGu: "ટ્રસ્ટી શ્રી",
+    photo: "/trustee/Manojbhai%20Bavchandbhai%20kabariya.jpeg"
   },
   {
-    name: "Add trustee name",
-    nameGu: "ટ્રસ્ટી શ્રી",
-    role: "Committee Member",
-    roleGu: "કમિટી સભ્ય",
-    photo: ""
+    name: "Vipulbhai Jivanbhai Kabariya",
+    nameGu: "વિપુલભાઈ જીવનભાઈ કાબરીયા",
+    role: "Trustee",
+    roleGu: "ટ્રસ્ટી શ્રી",
+    photo: "/trustee/vipulbhai%20jivanbhai%20kabariya.jpeg"
   }
 ];

@@ -217,9 +217,6 @@ export default function DarshanPage() {
               <p style={{ margin: 0, fontSize: "0.92rem", color: "var(--ink-soft)" }}>
                 {t("darshan_caption")} &bull; {SITE_CONFIG.place}
               </p>
-              <Link href="/prayers" className="btn btn-outline" style={{ padding: "8px 18px", fontSize: "0.85rem" }}>
-                {lang === "gu" ? "આરતી અને સ્તુતિ વાંચો" : "Read Aarti & Prayers"} &rarr;
-              </Link>
             </div>
           </div>
         </div>

@@ -89,8 +89,18 @@ export const TRANSLATIONS: Record<Language, Record<string, string>> = {
     donation_paytm_btn: "Pay via Paytm",
     donation_copy_btn: "Copy",
     donation_copied: "Copied to clipboard!",
+    donation_qr_zoom_hint: "Click to expand & scan QR",
     donation_use_title: "How donations are used",
     donation_use_text: "Contributions go toward Madh upkeep, annual Yagna arrangements, prasad, and community facilities for visiting parivar members. The trustee committee publishes accounts each year — see the Trustee page for contact details.",
+
+    // WhatsApp Group Community
+    whatsapp_group_eyebrow: "Parivar Community",
+    whatsapp_group_title: "Join Kabariya Parivar WhatsApp Group",
+    whatsapp_group_text: "Join our official WhatsApp group to receive announcements about upcoming Yagna festivals, temple development, celebrations, and connect with parivar members.",
+    whatsapp_group_btn: "Join WhatsApp Group",
+    whatsapp_group_scan_text: "Scan with WhatsApp camera or click below to join",
+    whatsapp_group_copy_btn: "Copy Group Link",
+    whatsapp_group_copied: "WhatsApp link copied!",
 
     // Event Page
     event_eyebrow: "What's coming up",
@@ -219,8 +229,18 @@ export const TRANSLATIONS: Record<Language, Record<string, string>> = {
     donation_paytm_btn: "Paytm થી ચૂકવો",
     donation_copy_btn: "કોપી કરો",
     donation_copied: "ક્લિપબોર્ડ પર કોપી થઈ ગયું!",
+    donation_qr_zoom_hint: "મોટો QR કોડ જોવા ક્લિક કરો",
     donation_use_title: "દાનનો ઉપયોગ કેવી રીતે થાય છે",
     donation_use_text: "યોગદાન મઢ ની જાળવણી, વાર્ષિક યજ્ઞ આયોજન, પ્રસાદ અને મુલાકાતી પરિવારજનો માટેની સુવિધાઓ માટે વપરાય છે. ટ્રસ્ટી કમિટી દર વર્ષે હિસાબ પ્રકાશિત કરે છે — સંપર્ક વિગતો માટે ટ્રસ્ટી પેજ જુઓ.",
+
+    // WhatsApp Group Community
+    whatsapp_group_eyebrow: "પરિવાર સમુદાય",
+    whatsapp_group_title: "કાબરીયા પરિવાર WhatsApp ગ્રુપમાં જોડાઓ",
+    whatsapp_group_text: "આગામી યજ્ઞ મહોત્સવ, મઢ વિકાસ કાર્યો, વાર્ષિક ઉત્સવો અને પરિવારજનો સાથે જોડાયેલા રહેવા માટે અમારા સત્તાવાર WhatsApp ગ્રુપમાં જોડાવો.",
+    whatsapp_group_btn: "WhatsApp ગ્રુપમાં જોડાઓ",
+    whatsapp_group_scan_text: "WhatsApp કેમેરાથી સ્કેન કરો અથવા નીચે ક્લિક કરીને જોડાઓ",
+    whatsapp_group_copy_btn: "ગ્રુપ લિંક કોપી કરો",
+    whatsapp_group_copied: "WhatsApp લિંક કોપી થઈ ગઈ!",
 
     // Event Page
     event_eyebrow: "આગામી કાર્યક્રમો",
